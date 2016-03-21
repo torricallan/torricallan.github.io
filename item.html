@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+</head>
+
+<body>
+	<div class="container-fluid">
+		<div class="top">
+			<img src="https://scontent-lax3-1.xx.fbcdn.net/hphotos-xtp1/v/t1.0-9/12141804_1642963829275542_464836283658506_n.jpg?oh=47b32dc95d1dba48eaaf58b37c8b4add&oe=5711DEBA">
+		</div>
+
+		<div class="itemdisplay">
+			<div class="row">
+			<div class="col-xs-6">
+				<img src="http://placehold.it/350x200">
+			</div>
+			<div class="col-xs-6">
+				<h1>Item Name</h1>
+				<p>Item description</p>
+				<p>$99.99</p>
+				<div class="btn-group" role="group">
+  					<button type="button" class="btn btn-default">S</button>
+  					<button type="button" class="btn btn-default">M</button>
+  					<button type="button" class="btn btn-default">L</button>
+  					<button type="button" class="btn btn-default">XL</button>
+				</div>
+				
+    				<div class="input-group">
+          				<input type="text" id="quant" class="form-control input-number" value="1" min="1" max="10">
+          				<span class="input-group-btn">
+              			<button type="button" class="btn btn-default btn-number" disabled="disabled" data-type="minus" data-field="quant[1]">
+                  		<span class="glyphicon glyphicon-minus"></span></button></span>
+          				<span class="input-group-btn">
+              			<button type="button" class="btn btn-default btn-number" data-type="plus" data-field="quant[1]">
+                  		<span class="glyphicon glyphicon-plus"></span>
+              			</button></span>
+      				</div>
+
+      			<button class="btn btn-default" id="cart"><span>Add to Cart</span></button>
+		</div>
+		</div>
+	</div>
+
+		<div class="spacing">
+
+		</div>
+
+		<div class="info">
+	 		<div class="row">
+	 		<nav class="navbar navbar-fixed-bottom">
+	 			<div class="navbar-header">
+ 					<ul class="nav nav-tabs">
+ 					<li role="presentation" class="active"><a href="thesaltypaddlers.html"><i class="fa fa-home"></i></a></li>
+ 					<li role="presentation" class="active"><a href="about.html"><i class="fa fa-info"></i></a></li>
+ 					<li role="presentation" class="active"><a href="blog.html"><i class="fa fa-newspaper-o"></i></a></li>
+ 					<li role="presentation" class="active"><a href="store.html"><i class="fa fa-shopping-cart"></i></a></li>
+ 					</div>
+ 		
+			</nav>
+				</div>
+			<div class="col-xs-6" id="admin">
+	 			<a href="admin.html" target="_blank"><p>admin<p></a>
+	 		</div>
+	 		<div class="col-xs-6" id="contact">
+	 			<a href="contact.html" target="_blank"><p>contact<p></a>
+	 		</div>
+	 	</div>
+
+
+	 	
+	</div>
+	<script src="item.js"></script>
+</body>
