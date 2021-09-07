@@ -131,7 +131,6 @@ Below is an example of the data returned (after a bit of pre-processing). Each r
     </tr>
   </tbody>
 </table>
-<p>47841 rows × 6 columns</p>
 </div>
 
 
