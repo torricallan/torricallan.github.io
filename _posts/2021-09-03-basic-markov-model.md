@@ -17,7 +17,6 @@ Below is an example of the data returned (after a bit of pre-processing). Each r
 
 
 <div>
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
