@@ -193,7 +193,7 @@ The parameter summaries are below. As expected with a uniform prior, the range o
 We can generate some examples of a night's sleep, based solely on what is predicted from our prior distributions (that is, not conditioned on the actual data). In the plot below there a 9 draws, where each colour represents a different sleep state. 
 
     
-![png](images/Basic_Markov_Model_12_1.png)
+![png](/images/Basic_Markov_Model_12_1.png)
     
 
 
@@ -568,7 +568,7 @@ This behaviour is what we observe in the summary of each element of $\theta$. Th
 Again we can simulate some predicted nights of sleep. Although draws are still mostly stuck in a single state, other draws look closer to a realistic evening, where multiple states are found across the night. 
 
   
-![png](images/Basic_Markov_Model_19_1.png)
+![png](/images/Basic_Markov_Model_19_1.png)
     
 
 
@@ -954,7 +954,7 @@ We can again sample some predicted nights of sleep from the model, and investiga
 The predictive checks also show a few areas in which the model could be improved. Some of the sleep stages (particularly REM and deep), last for much longer than is usually observed (the entire sleep cycle typically lasts 90 minutes, so each stage should be shorter than this). As well, deep sleep is more common earlier in the evening, whereas REM sleep is more common in the early morning after a few hours of sleep. This phenomena is not yet included in our model.
 
     
-![png](images/Basic_Markov_Model_26_1.png)
+![png](/images/Basic_Markov_Model_26_1.png)
     
 
 
@@ -975,7 +975,7 @@ Here we can produce the average amount of each sleep stage within a night of sle
 
 
     
-![png](images/Basic_Markov_Model_29_1.png)
+![png](/images/Basic_Markov_Model_29_1.png)
     
 
 
