@@ -137,7 +137,7 @@ Below is an example of the data returned (after a bit of pre-processing). Each r
 
 
 
-The basic Markov Model suggests that the next sleep state observed will only be influenced by the current state (aka the memoryless property) "$$Pr(Y_t = y | Y_{t-1}).$$" \$$Pr(Y_t = y | Y_{t-1}).\$$ This might be an oversimplification initially, but we will expand on the model once we understand the sensitivity of the model to certain prior choices. 
+The basic Markov Model suggests that the next sleep state observed will only be influenced by the current state (aka the memoryless property) "$$Pr(Y_t = y | Y_{t-1}).$$" This might be an oversimplification initially, but we will expand on the model once we understand the sensitivity of the model to certain prior choices. 
 
 To convert this into a statistical model, we must specify a likelihood function and some sensible prior choices. 
 $$ y_t \sim Categorical(\theta_{y_{t-1}})$$
