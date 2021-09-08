@@ -2,6 +2,7 @@
 layout: post
 title: A Markov Model for sleep stages using Oura Ring data
 categories: [Sleep, Markov]
+use_math: true
 ---
 
 The [Oura ring](https://ouraring.com/) is a device worn on the finger that uses infrared measurements to detect sleep states, as well as other useful biometric data throughout the night (Resting heart rate, heart rate variability, respiratory rate and skin tempurature).
