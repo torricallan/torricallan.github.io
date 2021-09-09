@@ -5,6 +5,8 @@ categories: [Sleep, Markov]
 use_math: true
 ---
 
+Math test $$x+ 1$$
+
 The [Oura ring](https://ouraring.com/) is a device worn on the finger that uses infrared measurements to detect sleep states, as well as other useful biometric data throughout the night (Resting heart rate, heart rate variability, respiratory rate and skin tempurature).
 
 The data proves to be pretty useful for examining long-term trends and factors that influence sleep and overall health ([HRV example](https://ilmostromberg.com/1000-days-with-oura-ring/), [Sleep example](https://www.quantifiedbob.com/sleep-tracking-analysis-oura/)). 
