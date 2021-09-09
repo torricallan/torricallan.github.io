@@ -5,8 +5,6 @@ categories: [Sleep, Markov]
 use_math: true
 ---
 
-Math test $$x+ 1$$
-
 The [Oura ring](https://ouraring.com/) is a device worn on the finger that uses infrared measurements to detect sleep states, as well as other useful biometric data throughout the night (Resting heart rate, heart rate variability, respiratory rate and skin tempurature).
 
 The data proves to be pretty useful for examining long-term trends and factors that influence sleep and overall health ([HRV example](https://ilmostromberg.com/1000-days-with-oura-ring/), [Sleep example](https://www.quantifiedbob.com/sleep-tracking-analysis-oura/)). 
@@ -139,7 +137,7 @@ Below is an example of the data returned (after a bit of pre-processing). Each r
 
 
 
-The basic Markov Model suggests that the next sleep state observed will only be influenced by the current state (aka the memoryless property) "$$Pr(Y_t = y | Y_{t-1}).$$" This might be an oversimplification initially, but we will expand on the model once we understand the sensitivity of the model to certain prior choices. 
+The basic Markov Model suggests that the next sleep state observed will only be influenced by the current state (aka the memoryless property) $$Pr(Y_t = y | Y_{t-1}).$$ This might be an oversimplification initially, but we will expand on the model once we understand the sensitivity of the model to certain prior choices. 
 
 To convert this into a statistical model, we must specify a likelihood function and some sensible prior choices. 
 $$ y_t \sim Categorical(\theta_{y_{t-1}})$$
